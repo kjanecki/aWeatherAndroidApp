@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">aWeather</string>
+
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="content_authority">com.marcinkaminski.aWeather</string>
+
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default" translatable="false">Kraków</string>
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_label_metric">Metric</string>
+    <string name="pref_units_label_imperial">Imperial</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_metric" translatable="false">metric</string>
+    <string name="pref_units_imperial" translatable="false">imperial</string>
+    <string name="pref_enable_notifications_key" translatable="false">enable_notifications</string>
+    <string name="pref_enable_notifications_label">Weather Notifications</string>
+    <string name="pref_enable_notifications_true">Enabled</string>
+    <string name="pref_enable_notifications_false">Disabled</string>
+    <string name="pref_last_notification">last_notification</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <string name="format_full_friendly_date">
+        <xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g>
+    </string>
+
+    <string name="format_temperature">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0
+    </string>
+
+    <string name="wind_label">Wind</string>
+
+    <string name="format_wind_kmh">
+        <xliff:g id="speed">%1$1.0f</xliff:g> km/h
+    </string>
+
+    <string name="format_wind_mph">
+        <xliff:g id="speed">%1$1.0f</xliff:g> mph
+    </string>
+
+    <string name="pressure_label">Pressure</string>
+
+    <string name="format_pressure">
+        <xliff:g id="pressure">%1.0f</xliff:g> hPa
+    </string>
+
+    <string name="humidity_label">Humidity</string>
+
+    <string name="format_humidity">
+        <xliff:g id="humidity">%1.0f</xliff:g> %%
+    </string>
+
+    <string name="condition_1">Sunny</string>
+    <string name="condition_2">Cloudy</string>
+    <string name="condition_3">Partly cloudy</string>
+    <string name="condition_4">Stormy</string>
+    <string name="condition_5">Sun and storm</string>
+    <string name="condition_6">Stormy and cloudy</string>
+    <string name="condition_7">Partly cloudy and stormy</string>
+    <string name="condition_10">Rainy</string>
+    <string name="condition_20">Snowy</string>
+    <string name="condition_30">Rainy and snowy</string>
+    <string name="condition_40">Foggy</string>
+    <string name="condition_50">Rainy</string>
+    <string name="condition_60">Snowy</string>
+    <string name="condition_70">Sleet</string>
+    <string name="condition_11">Partly cloudy, rainy</string>
+    <string name="condition_12">Rainy</string>
+    <string name="condition_13">Partly cloudy, rainy</string>
+    <string name="condition_14">Rainy and stormy</string>
+    <string name="condition_15">Mostly rainy and stormy</string>
+    <string name="condition_16">Rainy and stormy</string>
+    <string name="condition_17">Mostly rainy and stormy</string>
+    <string name="condition_21">Partly cloudy and snowy</string>
+    <string name="condition_22">Snowy</string>
+    <string name="condition_23">Partly cloudy and snowy</string>
+    <string name="condition_24">Snowy and stormy</string>
+    <string name="condition_25">Mostly snowy and stormy</string>
+    <string name="condition_26">Snowy and stormy</string>
+    <string name="condition_27">Mostly snowy and stormy</string>
+    <string name="condition_31">Mostly sleed</string>
+    <string name="condition_32">Sleed</string>
+    <string name="condition_33">Mostly sleed</string>
+    <string name="condition_34">Stormy, sleed</string>
+    <string name="condition_35">Mostly stormy, sleed</string>
+    <string name="condition_36">Stormy, sleed</string>
+    <string name="condition_37">Mostly stormy, sleed</string>
+    <string name="condition_41">Foggy and sunny</string>
+    <string name="condition_42">Cloudy</string>
+    <string name="condition_43">Partly cloudy</string>
+    <string name="condition_44">Stormy</string>
+    <string name="condition_45">Sunny and stormy</string>
+    <string name="condition_46">Stormy</string>
+    <string name="condition_47">Partly cloudy and stormy</string>
+    <string name="condition_51">Mostly rainy and sunny</string>
+    <string name="condition_52">Rainy</string>
+    <string name="condition_53">Partly cloudy and rainy</string>
+    <string name="condition_54">Rainy and stormy</string>
+    <string name="condition_55">Mostly rainy and stormy</string>
+    <string name="condition_56">Rainy and stormy</string>
+    <string name="condition_57">Mostly rainy and stormy</string>
+    <string name="condition_61">Snowy and sunny</string>
+    <string name="condition_62">Snowy and cloudy</string>
+    <string name="condition_63">Snowy and partly cloudy</string>
+    <string name="condition_64">Snowy and stormy</string>
+    <string name="condition_65">Mostly snowy and stormy</string>
+    <string name="condition_66">Snowy and stormy</string>
+    <string name="condition_67">Mostly snowy and stormy</string>
+    <string name="condition_71">Mostly snowy and rainy</string>
+    <string name="condition_72">Rainy and snowy</string>
+    <string name="condition_73">Partly cloudy, sleed</string>
+    <string name="condition_74">Stormy, sleed</string>
+    <string name="condition_75">Mostly stormy and sleed</string>
+    <string name="condition_76">Stormy, sleed</string>
+    <string name="condition_77">Mostly stormy and sleed</string>
+
+    <string name="condition_unknown">Unknown (<xliff:g id="conditionId">%1$d</xliff:g>)</string>
+
+    <string name="a11y_forecast">Forecast: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_forecast_icon">Forecast icon: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_high_temp">High: <xliff:g id="high">%1$s</xliff:g></string>
+    <string name="a11y_low_temp">Low: <xliff:g id="low">%1$s</xliff:g></string>
+    <string name="a11y_humidity">Humidity: <xliff:g id="humidity">%1$s</xliff:g></string>
+    <string name="a11y_pressure">Barometric Pressure: <xliff:g id="pressure">%1$s</xliff:g></string>
+    <string name="a11y_wind">Wind speed and direction: <xliff:g id="wind">%1$s</xliff:g></string>
+
+    <string name="format_notification">
+        Forecast: <xliff:g id="condition">%1$s</xliff:g> [
+        H: <xliff:g id="high">%2$s</xliff:g>
+        , L: <xliff:g id="low">%3$s</xliff:g> ]
+    </string>
+
+</resources>
