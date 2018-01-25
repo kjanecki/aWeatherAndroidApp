@@ -17,6 +17,9 @@ import java.util.ArrayList;
  * Created by marcinkaminski on 19/09/2017.
  */
 public class Forecast {
+
+    public static int DAYS_NUMBER = 5;
+
     public static String TAG = Forecast.class.getSimpleName();
     private ArrayList<Weather> dailyWeather;
 
@@ -72,12 +75,11 @@ public class Forecast {
 
         forecastList.add(Forecast.getForecastFromApi(city,
                 new YahooWeatherApiParser()));
-
         return getContentValuesArray(forecastList);
     }
 
     private static ContentValues[] getContentValuesArray(ArrayList<Forecast> forecastList) {
-        ContentValues[] contentValuesArray = new ContentValues[forecastList.get(0).getSize()];
+        ContentValues[] contentValuesArray = new ContentValues[DAYS_NUMBER];
 
         for (int i = 0; i < contentValuesArray.length; ++i) {
             AccurateWeather.Builder accurateWeatherBuilder = AccurateWeather.Builder.builder();

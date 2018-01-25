@@ -60,7 +60,12 @@ public class OpenWeatherApiParser implements WeatherApiParseableUtils {
 
             double pressure = 0.0;
 
-            for( int j=i; j<i+8 && j <daysList.length();++j){
+
+            int cnt=0;
+
+            for(int j=i,temp_cnt = 0; j<i+8 && j <daysList.length();++j, ++temp_cnt){
+
+                cnt=temp_cnt;
 
                 actualWeather = daysList.getJSONObject(j).getJSONArray("weather").getJSONObject(0);
                 JSONObject dayData = daysList.getJSONObject(j);
@@ -95,11 +100,15 @@ public class OpenWeatherApiParser implements WeatherApiParseableUtils {
 
             String icon = Integer.toString(IconManagerUtils.encode(conditions));
 
-            forecast.addWeather(new Weather(date,summary,
-                    icon,temperatureMax,temperatureMin,
-                    windSpeedMax,
-                    humidityMax,
-                    pressure));
+            if(cnt==7) {
+                forecast.addWeather(new Weather(date, summary,
+                        icon, temperatureMax, temperatureMin,
+                        windSpeedMax,
+                        humidityMax,
+                        pressure));
+            }else{
+                forecast.addWeather(null);
+            }
 
         }
         return forecast;

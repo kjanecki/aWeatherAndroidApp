@@ -68,7 +68,7 @@ public class DarkSkyApiParser implements WeatherApiParseableUtils {
                 return "40";
 
             case "wind":
-                return "0";
+                return "2";
         }
         return "0";
     }
